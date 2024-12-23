@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+body{
+	background: #100007;
+	font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 2px;
+	background-image: url("../_images/final bg-07.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+h1, h2, h6, nav{
+	text-align: center;
+}
+nav a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px 20px;
+	margin: 0px 40px;
+	width: 100px;
+	display: inline-block;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+nav a:hover{
+	background-color: #dbfcff;
+	color: #1f2232;
+	border-bottom: solid 2px #000000;
+}
+footer{
+	background-color: #1f2232;
+	color: #dbfcff;
+}
+h3{
+	background-color: #1f2232;
+	color: #dbfcff;
+	padding: 10px;
+	font-size: 26px;
+}
+h4{
+	color: #dbfcff;
+	font-size: 20px;
+	padding: 10px;
+}
+p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+nav{
+	position: sticky;
+	top: 0px;
+	color: #ffffff;
+	background-color: #1f2232;
+	border: solid 10px #dbfcff;
+}
+a{
+	text-decoration: none;
+	color: #dbfcff;
+}
+a:hover{
+	text-decoration: none;
+	color: #1f2232;
+}
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #1f2232;
+  position: sticky;
+  top: 0px;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  background-color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #dbfcff;
+  color: #1f2232;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #transparent;
+  color: white;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #dbfcff;
+  padding: 12px; /* Some padding */  
+  border: 2px solid #1f2232; /* Gray border */
+  border-radius: 0px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: transparent;
+  border: 3px solid #1f2232;
+  color: #1f2232#dbfcff;
+  padding: 17px 60px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: all .5s ease;
+  letter-spacing: .30em;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #1f2232;
+  color: #dbfcff;
+}
+iframe{
+	padding-top: 27px;
+/*	padding-right: 30px;*/
+	margin: auto;
+	width: 100%;
+}
+.blueEmail{
+	color: #dbfcff;
+	padding-left: 10px;
+}.blueEmail:hover{
+	background-color: #dbfcff;
+	color: #1f2232;
+}
+.fontBlue{
+	color: #1f2232;
+}
+.full{
+	display: none;
+}
+.button{
+	text-align: center;
+}
+.h2{
+	color: #ffffff;
+	text-align: left;
+	font-size: 22px;
+}
+.darkBlue{
+	background-color: #1f2232;
+}
+.whiteText{
+	color: #ffffff;
+}
+.darkBlueText{
+	color: #1f2232;
+	background-color: #dbfcff;
+}
+.rightBlueText{
+	color: #1f2232;
+	text-align: right;
+}
+.mintText{
+	color: #dbfcff;
+	font-size: 22px;
+}
+.whiteRow{
+	background-color: #ffffff;
+}
+.mintDark{
+	background-color: #dbfcff;
+	color: #1f2232;
+}
+.textRight{
+	background-color: transparent;
+  border: 3px solid #dbfcff;
+  color: #dbfcff;
+  padding: 7px 30px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: all .5s ease;
+  letter-spacing: .30em;
+}
+.textRight:hover{
+	text-align: right;
+	background-color: #dbfcff;
+	color: #1f2232;
+}
+.text-alignRight{
+	text-align: center;
+}
+.blueTextRight{
+	background-color: transparent;
+  border: 3px solid #1f2232;
+  color: #1f2232;
+  padding: 7px 30px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: all .5s ease;
+  letter-spacing: .30em;
+}
+.blueTextRight:hover{
+	text-align: right;
+	background-color: #1f2232;
+	color: #dbfcff;
+}
+.container{
+	max-width: 1366px;
+	background: #eeeeee;
+	margin: 0px auto;
+}
+.paddingRow{
+	padding: 10px;
+}
+.topPaddingRow{
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+/*	padding: 20px;*/
+}
+.col{
+	padding: 10px 1%;
+	margin: 10px .5%;
+	flex-grow: 1;
+}
+.imgSizer{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0px auto;
+}
+.one12{
+	flex-grow: 0;
+	width: 5.33%;
+}
+.two12{
+	flex-grow: 0;
+	width: 13.66%;
+}
+.three12{
+	flex-grow: 0;
+	width: 21.99%;
+}
+.four12{
+	flex-grow: 0;
+	width: 30.32%;
+}
+.five12{
+	flex-grow: 0;
+	width: 38.65%;
+}
+.six12{
+	flex-grow: 0;
+	width: 47%;	
+}
+.seven12{
+	flex-grow: 0;
+	width: 55.31%;
+}
+.eight12{
+	flex-grow: 0;
+	width: 63.64%;
+}
+.nine12{
+	flex-grow: 0;
+	width: 71.97%;
+}
+.ten12{
+	flex-grow: 0;
+	width: 80.3%;
+}
+.eleven12{
+	flex-grow: 0;
+	width: 88.63%;	
+}
+@media only screen and (max-width:900px){
+	.container{
+		background-color: #07004d;
+	}
+	.tabletHalf{
+		flex-grow: 0;
+		width: 97%;
+	}
+	iframe{
+		height: 200px;
+	}
+}
+@media only screen and (max-width:720px){
+	.container{
+		background-color: #42e2b8;
+	}
+	.col{
+		flex-grow: 0;
+		width: 97%;
+	}
+	iframe{
+		height: 200px;
+	}
+	nav{
+		position: relative;
+	}
+	.mobileHide{
+		display: none;
+	}
+	.mobileShow{
+		display: block;
+	}
+}
